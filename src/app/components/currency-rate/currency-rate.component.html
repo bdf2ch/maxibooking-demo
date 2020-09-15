@@ -1,0 +1,10 @@
+<div class="currency-rate">
+  <div class="rate">
+    <div class="caption">{{rate?.CharCode}}</div>
+    <div class="value">{{rate?.Value}}</div>
+    <div class="indicator" *ngIf="rate?.Previous">
+      <span class="less" *ngIf="rate.Value < rate.Previous">&#9662;</span>
+      <span class="more" *ngIf="rate.Value > rate.Previous">&#9652;</span>
+    </div>
+  </div>
+</div>

@@ -1,14 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+import { CurrencyRateComponent } from './components/currency-rate/currency-rate.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CurrencyRateComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  refreshInterval: 10000   // Интервал опроса источника данных
 };

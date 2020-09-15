@@ -1,0 +1,56 @@
+.currency-rate {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 30px;
+  background: white;
+  border: 1px solid #eeeeee;
+
+  .rate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .caption {
+      margin-right: 15px;
+      font-family: 'Open Sans Semi Bold';
+      font-size: 30px;
+      line-height: 30px;
+      color: #37474f;
+    }
+
+    .value {
+      font-family: 'Open Sans Light';
+      font-size: 30px;
+      line-height: 30px;
+      color: #546e7a;
+    }
+
+    .indicator {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+      font-size: 35px;
+
+      .less {
+        color: #f44336;
+      }
+
+      .more {
+        color: #4caf50;
+      }
+    }
+  }
+
+  .date {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
